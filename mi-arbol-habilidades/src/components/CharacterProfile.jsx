@@ -5,12 +5,14 @@ import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Responsi
 
 // Datos de la telaraña (Basados en el Lore de tu Árbol)
 const skillsData = [
-  { subject: 'Computer Vision', score: 90, fullMark: 100 },
-  { subject: 'Big Data / Data Eng', score: 85, fullMark: 100 },
-  { subject: 'Cloud (GCP/AWS)', score: 75, fullMark: 100 },
-  { subject: 'Machine Learning', score: 75, fullMark: 100 },
-  { subject: 'Python', score: 85, fullMark: 100 },
+  { subject: 'Computer Vision', score: 80, fullMark: 100 },
+  { subject: 'Big Data / Data Eng', score: 80, fullMark: 100 },
+  { subject: 'Cloud (GCP)', score: 65, fullMark: 100 },
+  { subject: 'Machine Learning', score: 85, fullMark: 100 },
+  { subject: 'Python', score: 80, fullMark: 100 },
   { subject: 'Lógica & Analítica', score: 90, fullMark: 100 },
+  { subject: 'SQL', score: 80, fullMark: 100 },
+  { subject: 'GenAI', score: 65, fullMark: 100 },
 ];
 
 export default function CharacterProfile() {
