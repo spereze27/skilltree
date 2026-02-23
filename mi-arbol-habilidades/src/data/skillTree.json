@@ -29,7 +29,7 @@
     {
       "id": "n-excel",
       "type": "customSkillNode",
-      "position": { "x": 250, "y": 300 },
+      "position": { "x": 150, "y": 300 },
       "data": {
         "title": "[Pergamino de las Celdas Infinitas] - Curso de Excel Avanzado",
         "icon": "excel.svg",
@@ -42,7 +42,7 @@
     {
       "id": "n-python",
       "type": "customSkillNode",
-      "position": { "x": 750, "y": 300 },
+      "position": { "x": 800, "y": 300 },
       "data": {
         "title": "[El Lenguaje de las Serpientes] - Python for Data Scientist",
         "icon": "python.svg",
@@ -55,7 +55,7 @@
     {
       "id": "n-datascientist",
       "type": "customSkillNode",
-      "position": { "x": 750, "y": 450 },
+      "position": { "x": 800, "y": 450 },
       "data": {
         "title": "[Open Sourcerer] - Data Scientist",
         "icon": "mago.svg",
@@ -68,7 +68,7 @@
     {
       "id": "n-maestria",
       "type": "customSkillNode",
-      "position": { "x": 150, "y": 650 },
+      "position": { "x": 50, "y": 650 },
       "data": {
         "title": "[Archimago] - Maestría en Analítica",
         "lore": "Vuelves a la academia que te dio el dominio sobre las máquinas para encarar el desafío de una escuela nueva.",
@@ -81,7 +81,7 @@
     {
       "id": "n-ml",
       "type": "customSkillNode",
-      "position": { "x": 450, "y": 650 },
+      "position": { "x": 400, "y": 650 },
       "data": {
         "title": "[Invocador de Modelos] - Machine Learning",
         "icon": "ML.svg",
@@ -116,10 +116,11 @@
         "stats": { "Conexión Astral": "+50" }
       }
     },
+    
     {
       "id": "n-gcp-altar",
       "type": "customSkillNode",
-      "position": { "x": 950, "y": 800 },
+      "position": { "x": 800, "y": 850 },
       "data": {
         "title": "Altar del Titán Oráculo (GCP)",
         "icon": "gcp.svg",
@@ -131,7 +132,7 @@
     {
       "id": "n-gcp-ace",
       "type": "customSkillNode",
-      "position": { "x": 950, "y": 950 },
+      "position": { "x": 800, "y": 1000 },
       "data": {
         "title": "[Tecnomante GCP] - Associate Cloud Engineer",
         "lore": "Has demostrado ser digno de encender y mantener los templos de infraestructura.",
@@ -143,7 +144,7 @@
     {
       "id": "n-gcp-pde",
       "type": "customSkillNode",
-      "position": { "x": 950, "y": 1100 },
+      "position": { "x": 800, "y": 1150 },
       "data": {
         "title": "[Maestro de los Flujos] - Professional Data Engineer",
         "lore": "Buscas dominar la alquimia de los datos.",
@@ -153,25 +154,82 @@
       }
     },
     {
+      "id": "n-gcp-pca",
+      "type": "customSkillNode",
+      "position": { "x": 800, "y": 1300 },
+      "data": {
+        "title": "[Arquitecto del Oráculo] - Professional Cloud Architect",
+        "lore": "La maestría absoluta sobre el Titán. Podrás diseñar realidades enteras a tu antojo.",
+        "status": "locked",
+        "loot": []
+      }
+    },
+
+    {
       "id": "n-aws-altar",
       "type": "customSkillNode",
-      "position": { "x": 1150, "y": 800 },
+      "position": { "x": 1150, "y": 850 },
       "data": {
         "title": "Altar del Coloso del Comercio (AWS)",
         "icon": "aws.svg",
-        "lore": "El más antiguo y ruidoso de los tres titanes.",
+        "lore": "El más antiguo y ruidoso de los tres titanes. Sus laberintos son temidos.",
         "status": "locked",
         "loot": []
       }
     },
     {
+      "id": "n-aws-cp",
+      "type": "customSkillNode",
+      "position": { "x": 1150, "y": 1000 },
+      "data": {
+        "title": "[Iniciado de la Nube] - AWS Cloud Practitioner",
+        "lore": "El primer paso para caminar sin miedo en los inmensos laberintos del Coloso.",
+        "status": "locked",
+        "loot": []
+      }
+    },
+    {
+      "id": "n-aws-saa",
+      "type": "customSkillNode",
+      "position": { "x": 1150, "y": 1150 },
+      "data": {
+        "title": "[Herrero de Soluciones] - AWS Solutions Architect",
+        "lore": "Forjas herramientas robustas usando el poder bruto del Coloso del Comercio.",
+        "status": "locked",
+        "loot": []
+      }
+    },
+
+    {
       "id": "n-azure-altar",
       "type": "customSkillNode",
-      "position": { "x": 1350, "y": 800 },
+      "position": { "x": 1500, "y": 850 },
       "data": {
-        "title": "Altar del Bastión de las Ventanas (Azure)",
+        "title": "Altar del Bastión (Azure)",
         "icon": "azure.svg",
         "lore": "Un dios forjado en los fuegos de las corporaciones más antiguas del reino.",
+        "status": "locked",
+        "loot": []
+      }
+    },
+    {
+      "id": "n-azure-az900",
+      "type": "customSkillNode",
+      "position": { "x": 1500, "y": 1000 },
+      "data": {
+        "title": "[Acólito Azul] - Azure Fundamentals AZ-900",
+        "lore": "Hechizos defensivos y bases empresariales del Bastión de las Ventanas.",
+        "status": "locked",
+        "loot": []
+      }
+    },
+    {
+      "id": "n-azure-dp203",
+      "type": "customSkillNode",
+      "position": { "x": 1500, "y": 1150 },
+      "data": {
+        "title": "[Maestro de Canales] - Data Engineering DP-203",
+        "lore": "Invocas acueductos masivos para transportar lagos enteros de datos.",
         "status": "locked",
         "loot": []
       }
@@ -186,10 +244,18 @@
     { "id": "e-ds-ml", "source": "n-datascientist", "target": "n-ml", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
     { "id": "e-ds-cv", "source": "n-datascientist", "target": "n-cv", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
     { "id": "e-ds-nube", "source": "n-datascientist", "target": "n-nube-base", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
+    
     { "id": "e-nube-gcp", "source": "n-nube-base", "target": "n-gcp-altar", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
     { "id": "e-gcp-ace", "source": "n-gcp-altar", "target": "n-gcp-ace", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
     { "id": "e-ace-pde", "source": "n-gcp-ace", "target": "n-gcp-pde", "animated": true, "style": { "stroke": "#ff9800", "strokeWidth": 2, "strokeDasharray": "5,5" } },
-    { "id": "e-nube-aws", "source": "n-nube-base", "target": "n-aws-altar", "animated": false, "style": { "stroke": "#9e9e9e", "strokeWidth": 2 } },
-    { "id": "e-nube-az", "source": "n-nube-base", "target": "n-azure-altar", "animated": false, "style": { "stroke": "#9e9e9e", "strokeWidth": 2 } }
+    { "id": "e-pde-pca", "source": "n-gcp-pde", "target": "n-gcp-pca", "animated": false, "style": { "stroke": "#475569", "strokeWidth": 2 } },
+    
+    { "id": "e-nube-aws", "source": "n-nube-base", "target": "n-aws-altar", "animated": false, "style": { "stroke": "#475569", "strokeWidth": 2 } },
+    { "id": "e-aws-cp", "source": "n-aws-altar", "target": "n-aws-cp", "animated": false, "style": { "stroke": "#475569", "strokeWidth": 2 } },
+    { "id": "e-cp-saa", "source": "n-aws-cp", "target": "n-aws-saa", "animated": false, "style": { "stroke": "#475569", "strokeWidth": 2 } },
+    
+    { "id": "e-nube-az", "source": "n-nube-base", "target": "n-azure-altar", "animated": false, "style": { "stroke": "#475569", "strokeWidth": 2 } },
+    { "id": "e-az-az900", "source": "n-azure-altar", "target": "n-azure-az900", "animated": false, "style": { "stroke": "#475569", "strokeWidth": 2 } },
+    { "id": "e-az900-dp203", "source": "n-azure-az900", "target": "n-azure-dp203", "animated": false, "style": { "stroke": "#475569", "strokeWidth": 2 } }
   ]
 }
