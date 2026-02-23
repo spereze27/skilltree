@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "n-bachiller",
+      "type": "customSkillNode",
+      "position": { "x": 500, "y": 0 },
+      "data": {
+        "title": "[Aldeano] - Bachiller",
+        "icon": "estres.svg",
+        "lore": "Eres una hoja en blanco llena de potencial para desarrollar tu personaje. Pero ten cuidado: algunas profesiones no son tan divertidas como aparentan en los gremios, y otras están bastante desbalanceadas respecto a las demás.",
+        "status": "unlocked",
+        "loot": ["diploma-bachiller.pdf"],
+        "stats": { "Todo": "+0", "Ansiedad": "+10" }
+      }
+    },
+    {
+      "id": "n-mecanico",
+      "type": "customSkillNode",
+      "position": { "x": 500, "y": 150 },
+      "data": {
+        "title": "[Forjador de Máquinas] - Ingeniero Mecánico",
+        "icon": "mecanico.svg",
+        "lore": "Has dominado las leyes del mundo físico, doblegando el metal y el movimiento a tu voluntad. Durante tus forjas, has sentido una fascinación por el campo de los datos para desarrollar experimentos que ayuden a preservar la vida de tus creaciones.",
+        "status": "unlocked",
+        "loot": ["titulo-ingeniero.pdf", "foto-grado.JPG"],
+        "stats": { "Lógica": "+50", "Resistencia al Estrés": "+10" }
+      }
+    },
+    {
+      "id": "n-excel",
+      "type": "customSkillNode",
+      "position": { "x": 250, "y": 300 },
+      "data": {
+        "title": "[Pergamino de las Celdas Infinitas] - Curso de Excel Avanzado",
+        "icon": "excel.svg",
+        "lore": "Un antiguo artefacto cuadriculado. Al principio parecía simple magia de mercaderes, pero descubriste su poder para automatizar las tareas más mundanas.",
+        "status": "unlocked",
+        "loot": ["certificado-excel.pdf"],
+        "stats": { "Excel": "+40" }
+      }
+    },
+    {
+      "id": "n-python",
+      "type": "customSkillNode",
+      "position": { "x": 750, "y": 300 },
+      "data": {
+        "title": "[El Lenguaje de las Serpientes] - Python for Data Scientist",
+        "icon": "python.svg",
+        "lore": "Descifraste los siseos de la gran pitón. Este conjuro te permitió invocar scripts ágiles a través de los datos.",
+        "status": "unlocked",
+        "loot": ["certificado-python.pdf"],
+        "stats": { "Python": "+50" }
+      }
+    },
+    {
+      "id": "n-datascientist",
+      "type": "customSkillNode",
+      "position": { "x": 750, "y": 450 },
+      "data": {
+        "title": "[Open Sourcerer] - Data Scientist",
+        "icon": "mago.svg",
+        "lore": "El metal ya no es suficiente. Ahora buscas desentrañar los secretos ocultos en los mares de datos. Eres uno de los hechiceros del gremio QUIND.",
+        "status": "unlocked",
+        "loot": ["quind.png"],
+        "stats": { "Inteligencia": "+100", "Python": "+20", "Spark": "+60", "SQL": "+10" }
+      }
+    },
+    {
+      "id": "n-maestria",
+      "type": "customSkillNode",
+      "position": { "x": 150, "y": 650 },
+      "data": {
+        "title": "[Archimago] - Maestría en Analítica",
+        "lore": "Vuelves a la academia que te dio el dominio sobre las máquinas para encarar el desafío de una escuela nueva.",
+        "status": "in-progress",
+        "progress": 57,
+        "loot": [],
+        "stats": { "Poder de Predicción": "+80" }
+      }
+    },
+    {
+      "id": "n-ml",
+      "type": "customSkillNode",
+      "position": { "x": 450, "y": 650 },
+      "data": {
+        "title": "[Invocador de Modelos] - Machine Learning",
+        "icon": "ML.svg",
+        "lore": "Has visto más allá del mundo y sabes los misterios de lo supervisado y no supervisado.",
+        "status": "unlocked",
+        "loot": [],
+        "stats": { "Control de Entidades": "+75" }
+      }
+    },
+    {
+      "id": "n-cv",
+      "type": "customSkillNode",
+      "position": { "x": 750, "y": 650 },
+      "data": {
+        "title": "[Aquel que vio el rostro de Dios] - Computer Vision",
+        "lore": "Has desarrollado algunas creaciones con la capacidad de ver nuestro mundo e interactuar con él.",
+        "status": "unlocked",
+        "loot": ["computer-vision-1.gif", "computer-vision-2.gif", "computer-vision-3.gif"],
+        "stats": { "Percepción": "+90" }
+      }
+    },
+    {
+      "id": "n-nube-base",
+      "type": "customSkillNode",
+      "position": { "x": 1150, "y": 650 },
+      "data": {
+        "title": "[El Plano Etéreo] - La Nube",
+        "icon": "portal_astral.svg",
+        "lore": "Un plano más allá de nuestro mundo con el cual solo algunos se pueden comunicar.",
+        "status": "unlocked",
+        "loot": [],
+        "stats": { "Conexión Astral": "+50" }
+      }
+    },
+    {
+      "id": "n-gcp-altar",
+      "type": "customSkillNode",
+      "position": { "x": 950, "y": 800 },
+      "data": {
+        "title": "Altar del Titán Oráculo (GCP)",
+        "icon": "gcp.svg",
+        "lore": "Te has sintonizado con el dios de la búsqueda y la indexación.",
+        "status": "unlocked",
+        "loot": []
+      }
+    },
+    {
+      "id": "n-gcp-ace",
+      "type": "customSkillNode",
+      "position": { "x": 950, "y": 950 },
+      "data": {
+        "title": "[Tecnomante GCP] - Associate Cloud Engineer",
+        "lore": "Has demostrado ser digno de encender y mantener los templos de infraestructura.",
+        "status": "unlocked",
+        "loot": ["badge-ace.png", "certificado-ace.pdf"],
+        "stats": { "Infraestructura GCP": "+50" }
+      }
+    },
+    {
+      "id": "n-gcp-pde",
+      "type": "customSkillNode",
+      "position": { "x": 950, "y": 1100 },
+      "data": {
+        "title": "[Maestro de los Flujos] - Professional Data Engineer",
+        "lore": "Buscas dominar la alquimia de los datos.",
+        "status": "in-progress",
+        "progress": 30,
+        "loot": []
+      }
+    },
+    {
+      "id": "n-aws-altar",
+      "type": "customSkillNode",
+      "position": { "x": 1150, "y": 800 },
+      "data": {
+        "title": "Altar del Coloso del Comercio (AWS)",
+        "icon": "aws.svg",
+        "lore": "El más antiguo y ruidoso de los tres titanes.",
+        "status": "locked",
+        "loot": []
+      }
+    },
+    {
+      "id": "n-azure-altar",
+      "type": "customSkillNode",
+      "position": { "x": 1350, "y": 800 },
+      "data": {
+        "title": "Altar del Bastión de las Ventanas (Azure)",
+        "icon": "azure.svg",
+        "lore": "Un dios forjado en los fuegos de las corporaciones más antiguas del reino.",
+        "status": "locked",
+        "loot": []
+      }
+    }
+  ],
+  "edges": [
+    { "id": "e-bach-mech", "source": "n-bachiller", "target": "n-mecanico", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
+    { "id": "e-mech-ex", "source": "n-mecanico", "target": "n-excel", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
+    { "id": "e-mech-py", "source": "n-mecanico", "target": "n-python", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
+    { "id": "e-py-ds", "source": "n-python", "target": "n-datascientist", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
+    { "id": "e-ds-mae", "source": "n-datascientist", "target": "n-maestria", "animated": true, "style": { "stroke": "#ff9800", "strokeWidth": 2, "strokeDasharray": "5,5" } },
+    { "id": "e-ds-ml", "source": "n-datascientist", "target": "n-ml", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
+    { "id": "e-ds-cv", "source": "n-datascientist", "target": "n-cv", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
+    { "id": "e-ds-nube", "source": "n-datascientist", "target": "n-nube-base", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
+    { "id": "e-nube-gcp", "source": "n-nube-base", "target": "n-gcp-altar", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
+    { "id": "e-gcp-ace", "source": "n-gcp-altar", "target": "n-gcp-ace", "animated": true, "style": { "stroke": "#4caf50", "strokeWidth": 2 } },
+    { "id": "e-ace-pde", "source": "n-gcp-ace", "target": "n-gcp-pde", "animated": true, "style": { "stroke": "#ff9800", "strokeWidth": 2, "strokeDasharray": "5,5" } },
+    { "id": "e-nube-aws", "source": "n-nube-base", "target": "n-aws-altar", "animated": false, "style": { "stroke": "#9e9e9e", "strokeWidth": 2 } },
+    { "id": "e-nube-az", "source": "n-nube-base", "target": "n-azure-altar", "animated": false, "style": { "stroke": "#9e9e9e", "strokeWidth": 2 } }
+  ]
+}
