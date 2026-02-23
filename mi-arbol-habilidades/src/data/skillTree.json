@@ -97,6 +97,7 @@
       "position": { "x": 750, "y": 650 },
       "data": {
         "title": "[Aquel que vio el rostro de Dios] - Computer Vision",
+        "icon": "eye.svg", 
         "lore": "Has desarrollado algunas creaciones con la capacidad de ver nuestro mundo e interactuar con él.",
         "status": "unlocked",
         "loot": ["computer-vision-1.gif", "computer-vision-2.gif", "computer-vision-3.gif"],
