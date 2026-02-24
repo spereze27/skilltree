@@ -99,7 +99,7 @@ export default function CharacterProfile() {
               </div>
 
               <div className="mt-4 bg-slate-950/50 p-3 rounded-xl border border-slate-800 text-center text-[10px] md:text-xs text-slate-500">
-                Gráfico de rendimiento basado en el progreso del árbol.
+                Gráfico de rendimiento basado en el progreso adquirido mediante cursos, certificaciones y proyectos.
               </div>
             </motion.div>
           </div>
