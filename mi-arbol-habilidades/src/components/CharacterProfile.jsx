@@ -39,7 +39,7 @@ export default function CharacterProfile() {
         {/* Información del Personaje */}
         <div className="flex-1 min-w-0">
           <div className="flex items-center justify-between md:block">
-            <h2 className="font-bold text-sm md:text-lg leading-tight truncate">Tu Nombre</h2>
+            <h2 className="font-bold text-sm md:text-lg leading-tight truncate">Simón Pérez</h2>
             <span className="md:hidden bg-blue-600/20 text-blue-400 text-[8px] px-1.5 py-0.5 rounded border border-blue-500/30 font-bold">MID-LEVEL</span>
           </div>
           
